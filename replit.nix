@@ -1,7 +1,7 @@
 { pkgs }: {
   deps = [
     pkgs.python38Full
-    pkgs.chronium
+    pkgs.chromium
     pkgs.chromedriver
   ];
   env = {
